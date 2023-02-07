@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1;
+    background-color: rgb(134, 134, 134);
+}
+
+header {
+    background-color: rgb(230, 171, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 6%;
+    justify-content: space-around;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.blue-banner {
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 195px;
+    position: relative;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/973/105/small/orange-sunshine-colorful-background-abstract-sunburst-swirl-design-wallpaper-for-template-business-social-media-advertising-banner-cover-free-vector.jpg)
+}
+
+h1 {
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 6%;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 47px;
+    display: flex;
+    justify-content: flex-end;
+    border-right-style: solid;
+}
+
+div {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 7%;
+    padding-right: 5%;
+    font-size: 140%;
+}
+
+main {
+    display: grid inline-grid;
+}
+
+.container {
+    width: 92%;
+    padding-bottom: 120%;
+    margin: 40px auto 0px auto;
+    display: grid;
+    grid-template-columns: 16% 76%;
+    gap: 4%;
+}
+
+.Portfolio {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 410px 210px 210px;
+    grid-template-areas: 
+        "p0 p0"
+        "p1 p2"
+        "p3 p4"
+    } 
+
+figure {
+    width: 100%;
+    position: relative;
+    border: 5px solid;
+    border-color: aqua
+}
+
+
+
